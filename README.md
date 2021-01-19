@@ -7,7 +7,7 @@ Add some description here
 ```
 git clone https://github.com/metalicjames/verthash-pospace
 cd verthash-pospace
-git pull --recurse-submodules --jobs=10
+git submodule update --init --recursive
 make all
 ```
 
