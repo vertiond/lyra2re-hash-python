@@ -1,7 +1,5 @@
 # Verthash PoSpace Proof-of-concept
 
-Add some description here
-
 ## Building
 
 ```
