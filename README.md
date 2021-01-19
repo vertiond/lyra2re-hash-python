@@ -26,3 +26,12 @@ Then, you can run the trial hashing of a dummy header using h2.
 cd <folder where verthash-pospace is checked out>
 ./h2
 ```
+
+## Building verthash python module
+```
+git clone https://github.com/metalicjames/verthash-pospace
+cd verthash-pospace
+git submodule update --init --recursive
+chmod +x setup.py
+sudo python setup.py install
+```
