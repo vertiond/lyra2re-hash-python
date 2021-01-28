@@ -30,6 +30,5 @@ cd <folder where verthash-pospace is checked out>
 git clone https://github.com/metalicjames/verthash-pospace
 cd verthash-pospace
 git submodule update --init --recursive
-chmod +x setup.py
 sudo python setup.py install
 ```
