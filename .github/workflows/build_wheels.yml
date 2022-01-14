@@ -24,7 +24,6 @@ jobs:
       - name: Build wheels
         uses: joerick/cibuildwheel@v2.3.1
         env:
-          CIBW_BUILD: 'cp310-*'
           CIBW_TEST_COMMAND: "python {package}/test.py"
 
       - uses: actions/upload-artifact@v2
@@ -44,8 +43,6 @@ jobs:
 
       - name: Build sdist
         run: python setup.py sdist
-        env:
-          CIBW_BUILD: 'cp310-*'
 
       - uses: actions/upload-artifact@v2
         with:
