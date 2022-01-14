@@ -30,11 +30,11 @@ lyra2re_hash_module = Extension('lyra2re_hash',
                                include_dirs=lyraincludes)
 
 
-setup (name = 'lyra2re2_hash',
-       version = '1.2.1',
-       author_email = 'jameslovejoy1@gmail.com',
-       author = 'James Lovejoy',
-       url = 'https://github.com/metalicjames/lyra2re-hash-python',
-       description = 'Bindings for Lyra2RE2 proof of work used by Vertcoin',
+setup (name = 'lyra2re2_hash_test',
+       version = '0.0.2',
+       author_email = 'vertion@protonmail.com',
+       author = 'vertion',
+       url = 'https://github.com/vertiond/lyra2re-hash-python',
+       description = 'Bindings for Lyra2RE* proof of work used by Vertcoin',
        ext_modules = [lyra2re3_hash_module, lyra2re2_hash_module, lyra2re_hash_module])
 
