@@ -15,10 +15,10 @@ verthash_module = Extension('verthash',
                             extra_compile_args=['-std=c99'],
                             include_dirs=verthashincludes)
 
-setup(name = 'verthash',
+setup(name = 'verthash_test',
       version = '0.0.1',
-      author_email = 'jameslovejoy1@gmail.com',
-      author = 'James Lovejoy',
-      url = 'https://github.com/metalicjames/verthash-pospace',
+      author_email = 'vertion@protonmail.com',
+      author = 'vertion',
+      url = 'https://github.com/vertiond/lyra2re-hash-python',
       description = 'Python bindings for Verthash proof of work function',
       ext_modules = [verthash_module])
