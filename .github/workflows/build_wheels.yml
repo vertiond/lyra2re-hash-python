@@ -14,10 +14,8 @@ jobs:
             archs: auto
 
     steps:
-      - name: Checkout repository and submodules
+      - name: Checkout repository
         uses: actions/checkout@v2
-        with:
-          submodules: recursive
 
       - uses: actions/setup-python@v2
         name: Install Python

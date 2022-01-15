@@ -16,7 +16,7 @@ verthash_module = Extension('verthash',
                             include_dirs=verthashincludes)
 
 setup(name = 'verthash_test',
-      version = '0.0.1',
+      version = '0.0.2',
       author_email = 'vertion@protonmail.com',
       author = 'vertion',
       url = 'https://github.com/vertiond/lyra2re-hash-python',
